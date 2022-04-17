@@ -1,5 +1,5 @@
-#Exemplo projeto java Spring | Command
-##patterns / principios utilizados
+# Exemplo projeto java Spring | Command
+## Patterns / Principios utilizados
 * CQRS (Command Query Responsibility Segregation)
   * https://docs.microsoft.com/pt-br/azure/architecture/patterns/cqrs
 * DDD (Domain Driven Design)
@@ -7,7 +7,7 @@
 * Hexagonal Architecture
   * https://medium.com/ssense-tech/hexagonal-architecture-there-are-always-two-sides-to-every-story-bc0780ed7d9c
 
-#Foi utilizado:
+# Foi utilizado:
 * Flyway
   * para gerenciar o versionamento da base de dados
   * Muito util para ter maior controle dos comandos executados e conseguir reverter problemas facilmente
@@ -29,7 +29,7 @@
 * UseCase Pattern
   * Permite criar classes separadas para cada service de caso de uso
 
-#Considerações
+# Considerações
 * CQRS
   * Apenas o serviço command foi criado
   * Deveria ter outro serviço de query para realizar as consultas de usuarios criados

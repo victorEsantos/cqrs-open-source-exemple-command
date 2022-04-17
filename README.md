@@ -7,6 +7,10 @@
 * Hexagonal Architecture
   * https://medium.com/ssense-tech/hexagonal-architecture-there-are-always-two-sides-to-every-story-bc0780ed7d9c
 
+## Projeto
+* É basicamente uma api simples para cadastro de usuarios
+* O interessante é a arquitetura e as implementações que serão discorridas abaixo
+
 ## Foi utilizado:
 * Flyway
   * para gerenciar o versionamento da base de dados

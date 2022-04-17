@@ -28,12 +28,17 @@
   * createdAt e updatedAt
 * UseCase Pattern
   * Permite criar classes separadas para cada service de caso de uso
+* SonarLint
+  * Plugin local do sonar para detectar code smells
+  * Os problemas encontrados foram solicionados
+  * Restaram apenas 2 code Smells que não faziam muito sentido para nossa regra
 
 ## Considerações
 * CQRS
   * Apenas o serviço command foi criado
   * Deveria ter outro serviço de query para realizar as consultas de usuarios criados
 * Testes
+  * Utilizamos o jacoco como coverageRunner para ignorar cobertura em getters & setters
   * Foram Criados apenas testes de cenario feliz
   * O ideal seria criar testes que esperam exceptions e validações com erro vindos do controller e afins
   * Por se tratar de arquitetura Hexagonal seria interessante testes para validar se nenhuma camada foi perfurada(uma camada com acesso a outra que nao deveria ex.: Controller acessando repository)

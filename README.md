@@ -36,6 +36,10 @@
   * Plugin local do sonar para detectar code smells
   * Os problemas encontrados foram solicionados
   * Restaram apenas 2 code Smells que não faziam muito sentido para nossa regra
+* UUID
+  * UUID é principalmente utilizado em ambientes de microservices
+  * Uma vez que os ids numericos podem facilmente se repetir entre as diferentes instancias de serviços
+  * Resumidamente previne ids duplicados
 
 ## Considerações
 * CQRS

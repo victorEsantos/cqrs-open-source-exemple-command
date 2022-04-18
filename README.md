@@ -1,3 +1,4 @@
+Equipe: Alexandre Grawe, Leonardo Rodrigues e Victor Santos
 # Exemplo projeto java Spring | Command
 ## Patterns / Principios utilizados
 * CQRS (Command Query Responsibility Segregation)

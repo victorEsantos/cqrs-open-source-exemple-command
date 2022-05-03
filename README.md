@@ -39,6 +39,7 @@ Equipe: Alexandre Grawe, Leonardo Rodrigues e Victor Santos
   * Restaram apenas 2 code Smells que não faziam muito sentido para nossa regra
 * SonarCloud
   * https://sonarcloud.io/project/overview?id=victorEsantos_cqrs-open-source-exemple-command
+  * ![image](https://user-images.githubusercontent.com/61585518/166439122-38eb33f5-0d39-43de-80ee-549ad73410f9.png)
 * UUID
   * UUID é principalmente utilizado em ambientes de microservices
   * Uma vez que os ids numericos podem facilmente se repetir entre as diferentes instancias de serviços

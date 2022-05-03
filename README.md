@@ -37,6 +37,8 @@ Equipe: Alexandre Grawe, Leonardo Rodrigues e Victor Santos
   * Plugin local do sonar para detectar code smells
   * Os problemas encontrados foram solicionados
   * Restaram apenas 2 code Smells que não faziam muito sentido para nossa regra
+* SonarCloud
+  * https://sonarcloud.io/project/overview?id=victorEsantos_cqrs-open-source-exemple-command
 * UUID
   * UUID é principalmente utilizado em ambientes de microservices
   * Uma vez que os ids numericos podem facilmente se repetir entre as diferentes instancias de serviços
